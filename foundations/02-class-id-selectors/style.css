@@ -1,0 +1,25 @@
+/* Styling for odd numbered elements */
+/* 
+a light red/pink background, and a list of fonts containing `Verdana` and 
+`DejaVu Sans` with `sans-serif` as a fallback
+ */
+.odd-numbered {
+    /* red-pink */
+    background-color: rgb(214,32,78);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second-number {
+    color: blue;
+    font-size: 36px;
+}
+
+.third-number {
+    font-size: 24px;
+}
+
+#fourth-number {
+    background-color: rgb(144,238,144);
+    font-size: 24px;
+    font-weight: bold;
+}
