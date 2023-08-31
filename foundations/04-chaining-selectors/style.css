@@ -1,11 +1,14 @@
 /* Add CSS Styling */
 
-.avatar .proportioned {
+/* Chain by having no spaces between classes
+This means that only elements that have those two classes chained
+(are in both of those classes) will have the described attributes */
+.avatar.proportioned {
     height: auto;
     width: 300px;
 }
 
-.avatar .distorted {
+.avatar.distorted {
     height: 400px;
     width: 200px;
 }
