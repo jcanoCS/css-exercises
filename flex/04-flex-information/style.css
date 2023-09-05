@@ -2,14 +2,37 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
+.text {
+  font-size: 12px;
+  text-align: center;
+}
+
+.plants {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.plants .plant-tile {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  /* Since the main axis is along the column, we use align-items instead */
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 52px;
 }
 
 /* do not edit this footer */
