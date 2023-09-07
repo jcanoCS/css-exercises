@@ -5,10 +5,37 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  background-color: #eeeeee;
+}
+
+
+
 
 img {
   width: 600px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 button {
@@ -16,6 +43,32 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* All list items on page will have no bullet points */
+body ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+/* Remove underline from links in all of page's body
+Remove link color changes as well */
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-links li {
+  margin-left: 16px;
+}
+
+.right-links li {
+  margin-right: 16px;
 }
 
 input {
